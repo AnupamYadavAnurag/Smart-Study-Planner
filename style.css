@@ -88,11 +88,16 @@
 }
 
 body {
-  background: linear-gradient(-45deg, #0f172a, #1a1f3c, #9333ea, #3b82f6, #22c55e, #f59e0b, #ef4444);
-  background-size: 600% 600%;
-  animation: gradientShift 20s ease infinite;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  color: #e6eef8;
+
+  /* Add background image */
+  background: url('background.png') no-repeat center center fixed;
+  background-size: cover;
+
   min-height: 100vh;
-  min-width: 100vw;
 }
 
 @keyframes gradientShift {
