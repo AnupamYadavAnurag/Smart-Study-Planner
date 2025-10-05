@@ -26,4 +26,4 @@ Experience the Smart Study Planner in action by visiting the live demo:
 
 Frontend: HTML5, CSS3, JavaScript
 
-Data Storage: Browser Local Storage (for offline data persistence)
+Data Storage: Browser Local Storage
